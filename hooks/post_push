@@ -1,5 +1,7 @@
 #!/bin/bash
 
+env | sort
+
 # Use manifest-tool to create the manifest, given the experimental
 # "docker manifest" command isn't available yet on Docker Hub.
 
