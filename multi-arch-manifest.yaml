@@ -1,10 +1,10 @@
-image: phraide/multi-arch-example:latest
+image: phraide/docker-multi-arch-example:latest
 manifests:
-  - image: phraide/multi-arch-example:amd64
+  - image: phraide/docker-multi-arch-example:amd64
     platform:
       architecture: amd64
       os: linux
-  - image: phraide/multi-arch-example:arm64v8
+  - image: phraide/docker-multi-arch-example:arm64v8
     platform:
       architecture: arm64
       os: linux
